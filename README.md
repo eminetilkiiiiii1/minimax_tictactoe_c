@@ -13,6 +13,8 @@ Bu proje, C programlama diliyle yazılmış basit bir *X-O (Tic Tac Toe)* oyunud
 - Kazanma, beraberlik ve oyun sonu mesajları
 
 ---
+![Ekran Görüntüsü](https://github.com/eminetilkiiiiii1/minimax_tictactoe_c/raw/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-09%20222807.png)
+
 
 ## 🎮 Oynanış
 
@@ -31,11 +33,9 @@ Bu proje, C programlama diliyle yazılmış basit bir *X-O (Tic Tac Toe)* oyunud
 
 ### Terminal Komutları
 ```bash
+
 gcc main.c -o xo
 ./xo
-
-![Ekran Görüntüsü](https://github.com/eminetilkiiiiii1/minimax_tictactoe_c/raw/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-09%20222807.png)
-
 
 
 
