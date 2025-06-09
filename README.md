@@ -17,20 +17,19 @@ Bu proje, C programlama diliyle yazılmış basit bir *X-O (Tic Tac Toe)* oyunud
 ## 🎮 Oynanış
 
 1. Program başlatılır.
-2. Oyuncu X bilgisayar O seçer.
+2. Oyuncu X veya O seçer.
 3. Oyun sırayla devam eder.
 4. Bilgisayar en iyi hamleyi hesaplayarak oynar.
-5. Oyun bittiğinde skor gösterilir.
+5. Oyun bittiğinde kazanan veya beraberlik durumu gösterilir.
 
 ---
 
 ## 🚀 Derleme ve Çalıştırma
 
-### 🔧 Gereksinimler
-- GCC derleyici (Linux / Mac / Windows için MinGW)
+### Gereksinimler
+- GCC derleyici
 
-### 💻 Terminal Komutları
-
+### Terminal Komutları
 ```bash
 gcc main.c -o xo
 ./xo
@@ -38,15 +37,9 @@ gcc main.c -o xo
 
 ---
 
-🧪 Örnek Çıktı
+🖼️ Ekran Görüntüsü
 
-1 | 2 | 3
-    -----------
-     4 | X | 6
-    -----------
-     7 | O | 9
 
-Bilgisayarın hamlesi: 8
 
 
 ---
@@ -58,3 +51,29 @@ Minimax algoritması, oyun ağacını gezerek en iyi stratejiyi belirler. Bilgis
 
 ---
 
+📁 Dosya Yapısı
+
+├── main.c
+├── minimax.c
+├── minimax.h
+├── utils.c
+├── utils.h
+└── README.md
+
+
+---
+
+👤 Geliştirici
+
+Eminetilkiiiiii1
+
+GitHub Profilim
+
+
+
+---
+
+📜 Lisans
+
+MIT Lisansı altında yayımlanmıştır.
+    
